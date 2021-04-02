@@ -46,5 +46,5 @@ Total of 5 steps need to prepare:
 5. Have fun!
 
 ## Credits
-This is @Blackketter's excellent [BleCombo](https://github.com/blackketter/ESP32-BLE-Combo) library 
+This is @Blackketter's excellent [BleCombo](https://github.com/blackketter/ESP32-BLE-Combo) library
 These are @T-kV's excellent [ESP32-BLE-Mouse](https://github.com/T-vK/ESP32-BLE-Mouse) and [ESP32-BLE-Keyboard](https://github.com/T-vK/ESP32-BLE-Keyboard) libraries.
