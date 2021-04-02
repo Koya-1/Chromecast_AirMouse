@@ -18,10 +18,11 @@ Total of 5 steps need to prepare:
 4. Get X, Y offset value from Serial Monitor and record down.
 
 ## 2. To fix MPU6050 mouse sensitivity value.
-1. Replace x_offset and y_offset by recorded value in MPU6050_MouseMove.ino.
-2. Upload MPU6050_MouseMove.ino to ESP32.
-3. Connect ESP32 bluetooth to PC or Chromecast ATV.
-4. Test motion of mouse move. if too sentitive, reduce sensitivity value. if mouse move too slow, increase sensitivity value.
+1. Include BleCombo.h library to Arduino IDE from https://github.com/blackketter/ESP32-BLE-Combo.
+2. Replace x_offset and y_offset by recorded value in MPU6050_MouseMove.ino.
+3. Upload MPU6050_MouseMove.ino to ESP32.
+4. Connect ESP32 bluetooth to PC or Chromecast ATV.
+5. Test motion of mouse move. if too sentitive, reduce sensitivity value. if mouse move too slow, increase sensitivity value.
 
 ## 3. Check ESP32 deep sleep function.
 1. Connect push button to ESP32 pin 4 to wake ESP32 from deep sleep.
@@ -43,3 +44,7 @@ Total of 5 steps need to prepare:
 3. Replace x_offset and y_offset by recorded value in MPU6050_MouseMove.ino.
 4. Connect ESP32 bluetooth to Chromecast ATV.
 5. Have fun!
+
+## Credits
+This is @Blackketter's excellent [BleCombo](https://github.com/blackketter/ESP32-BLE-Combo) library 
+These are @T-kV's excellent [ESP32-BLE-Mouse](https://github.com/T-vK/ESP32-BLE-Mouse) and [ESP32-BLE-Keyboard](https://github.com/T-vK/ESP32-BLE-Keyboard) libraries.
