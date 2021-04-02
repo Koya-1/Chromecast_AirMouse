@@ -10,7 +10,7 @@ Total of 4 steps need to prepare:
 3. Check ESP32 deep sleep function.
 4. Check MPU6050 interrupt pin to wake up ESP32.
 
-## 1. To determine MMPU6050 x, Y offset value.
+## 1. To determine MMPU6050 X, Y offset value.
 1. Connect MPU6050 to ESP32.
 2. Upload MPU6050_Calibration.ino to ESP32
 3. Place MPU6050 in stationary location.
