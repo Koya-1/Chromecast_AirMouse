@@ -40,5 +40,6 @@ Total of 4 steps need to prepare:
 ## 5. Combine all together.
 1. Connect 4 push button to pin 5 (Mouse click), pin 23 (Back button), pin 18 (Scroll up), pin 19 (scroll down).
 2. Upload Chromecast_AirMouse.ino to ESP32.
-3. Connect ESP32 bluetooth to Chromecast ATV.
-4. Have fun!
+3. Replace x_offset and y_offset by recorded value in MPU6050_MouseMove.ino.
+4. Connect ESP32 bluetooth to Chromecast ATV.
+5. Have fun!
