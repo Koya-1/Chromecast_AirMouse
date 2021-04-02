@@ -49,3 +49,9 @@ Total of 5 steps need to prepare:
 This is @Blackketter's excellent [BleCombo](https://github.com/blackketter/ESP32-BLE-Combo) library.
 
 These are @T-kV's excellent [ESP32-BLE-Mouse](https://github.com/T-vK/ESP32-BLE-Mouse) and [ESP32-BLE-Keyboard](https://github.com/T-vK/ESP32-BLE-Keyboard) libraries.
+
+[Adafruit_MPU6050.h library installation guide](https://randomnerdtutorials.com/esp32-mpu-6050-accelerometer-gyroscope-arduino/)
+
+[MPU6050 register address reference](http://www.i2cdevlib.com/devices/mpu6050#registers)
+
+[How to generate hardware interrupt in mpu6050 to wakeup arduino from SLEEP_MODE_PWR_DOWN mode?](https://arduino.stackexchange.com/questions/48424/how-to-generate-hardware-interrupt-in-mpu6050-to-wakeup-arduino-from-sleep-mode)
