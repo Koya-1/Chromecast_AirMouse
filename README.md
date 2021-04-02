@@ -10,7 +10,7 @@ Total of 4 steps need to prepare:
 3. Check ESP32 deep sleep function.
 4. Check MPU6050 interrupt pin to wake up ESP32.
 
-## 1. To determine MMPU6050 X, Y offset value.
+## 1. To determine MPU6050 X, Y offset value.
 1. Connect MPU6050 to ESP32.
 2. Upload MPU6050_Calibration.ino to ESP32
 3. Place MPU6050 in stationary location.
@@ -23,3 +23,8 @@ Total of 4 steps need to prepare:
 4. Test motion of mouse move. if too sentitive, reduce sensitivity value. if mouse move too slow, increase sensitivity value.
 
 ## 3. Check ESP32 deep sleep function.
+1. Connect push button to pin 4 to wake ESP32 from deep sleep.
+2. Upload ESP32_DeepSleep.ino to ESP32.
+3. Blue LED should light up.
+4. Wait 30 sec to let ESP32 go to deep sleep and blue LED should off.
+5. Push button to wake up ESP32 and blue LED should light up again.
